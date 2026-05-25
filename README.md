@@ -1,4 +1,6 @@
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd-M1
+## NAME:BRINDHA A R
+## REG:212225040050
 # IAPR-1- Module 1 - FoC
 ## 1. Implementation of basic C programs using Literals,Consonants, Variables, Data types.
 ## 2. Implementation of different categories of operators.
@@ -26,7 +28,23 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+```
+#include <stdio.h>
+int main() {
+    int num = 100;
+    float pi = 3.14;
+    char grade = 'A';
+    char message[] = "Hello, World!";
+    printf("Integer Literal: %d\n", num);
+    printf("Float Literal: %.2f\n", pi);
+    printf("Character Literal: %c\n", grade);
+    printf("String Literal: %s\n", message);
+    return 0;
+}
+```
 # Output:
+<img width="578" height="486" alt="Screenshot 2026-05-25 194922" src="https://github.com/user-attachments/assets/36c7ca08-1576-4cdd-a062-953762c85cb5" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -57,7 +75,23 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```
+#include <stdio.h>
+
+#define MAX 100
+
+int main() {
+    const int value = 50;
+
+    printf("Macro Constant: %d\n", MAX);
+    printf("Constant Variable: %d\n", value);
+
+    return 0;
+}
+```
 # Output:
+<img width="1235" height="509" alt="image" src="https://github.com/user-attachments/assets/44fbbec5-ba93-433b-b766-19ebf973f47a" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
