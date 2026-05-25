@@ -115,7 +115,26 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    float b = 5.5;
+    double c = 123.456;
+    char d = 'X';
+
+    printf("Integer: %d\n", a);
+    printf("Float: %.2f\n", b);
+    printf("Double: %.3lf\n", c);
+    printf("Character: %c\n", d);
+
+    return 0;
+}
+```
 # Output:
+<img width="1259" height="503" alt="image" src="https://github.com/user-attachments/assets/bb88cd01-82aa-40df-a843-4b7db47f7ddc" />
+
 # Result: 
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
@@ -154,7 +173,32 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+    int a, b;
+
+    scanf("%d %d", &a, &b);
+
+    printf("Addition: %d\n", a + b);
+    printf("Subtraction: %d\n", a - b);
+    printf("Multiplication: %d\n", a * b);
+    printf("Division: %d\n", a / b);
+    printf("Remainder: %d\n", a % b);
+
+    printf("Bitwise AND: %d\n", a & b);
+    printf("Bitwise OR: %d\n", a | b);
+    printf("Bitwise XOR: %d\n", a ^ b);
+    printf("Left Shift (a << 1): %d\n", a << 1);
+    printf("Right Shift (a >> 1): %d\n", a >> 1);
+    printf("Bitwise NOT (~a): %d\n", ~a);
+
+    return 0;
+}
+}
+```
 # Output:
+<img width="1283" height="659" alt="image" src="https://github.com/user-attachments/assets/7a2d2a17-bf92-4ff5-ab88-930d7e26c2cd" />
+
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -199,7 +243,24 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+    char ch;
+    scanf("%c", &ch);
+
+    (ch >= '0' && ch <= '9') ?
+        printf("Digit") :
+    ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) ?
+        ((ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u') ?
+            printf("Vowel") :
+            printf("Consonant")) :
+        printf("Special Symbol");
+
+    return 0;
+}
+```
 # Output:
+<img width="1590" height="591" alt="image" src="https://github.com/user-attachments/assets/bdff6e96-c839-4713-9215-6690bb57548d" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
